@@ -132,7 +132,7 @@
   display: flex;
   justify-content: space-evenly;
   width: 100%;
-  margin-top: 15%;
+  margin-top: 12%;
 }
 
 .img1 {
@@ -426,9 +426,8 @@ textarea {
     justify-content: space-between;
     width: 40%;
   }
-
-  .footer {
-    padding-bottom: 10px;
+  .fa-2x {
+    font-size: 1em;
   }
   .grid {
     flex-direction: column;
@@ -494,6 +493,22 @@ textarea {
   }
   .contact2 {
     height: 180px;
+  }
+  .about {
+    height: 120vh;
+  }
+  .container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .img1 {
+    width: 80%;
+    height: 400px;
+  }
+  .about2 {
+    width: 80%;
+    padding-top: 20px;
   }
 }
 
