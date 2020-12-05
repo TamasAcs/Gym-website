@@ -66,11 +66,6 @@
   list-style-type: none;
 }
 
-.showcase a:hover {
-  background-color: var(--orange);
-  color: white;
-}
-
 .nav ul li:hover {
   cursor: pointer;
   transform: scale(1.1);
@@ -107,10 +102,14 @@
   border: 1px solid var(--orange);
 }
 
+.showcase a:hover {
+  background-color: var(--orange);
+  color: white;
+}
+
 .showcase p {
   padding: 20px 0;
   width: 500px;
-  /* change on smaller screen to 30% */
   line-height: 1.5em;
   text-align: center;
 }
@@ -218,7 +217,7 @@
 
 img {
   width: 250px;
-  height: 300px;
+  height: 250px;
   border-radius: 50%;
 }
 
@@ -410,7 +409,7 @@ textarea {
   }
   img {
     width: 190px;
-    height: 220px;
+    height: 190px;
   }
   .box1,
   .box2,
@@ -458,7 +457,10 @@ textarea {
     padding: 0;
   }
   .about ul li {
-    padding: 5px;
+    padding: 15px 5px;
+  }
+  .about i {
+    padding-right: 0;
   }
   .container2 {
     padding-top: 20px;
@@ -490,6 +492,12 @@ textarea {
   }
   .about h1 {
     font-size: 20px;
+  }
+  .about ul li {
+    padding: 5px 5px;
+  }
+  .about i {
+    padding-right: 0;
   }
   .contact2 {
     height: 180px;
@@ -538,5 +546,8 @@ textarea {
   }
   .contact2 {
     height: 200px;
+  }
+  .about ul li {
+    padding: 5px 5px;
   }
 }
