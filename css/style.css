@@ -405,7 +405,7 @@ textarea {
     width: 50%;
   }
   .container2 {
-    padding: 20px 20px 0 20px;
+    padding: 40px 20px 0px 20px;
   }
   img {
     width: 190px;
@@ -415,6 +415,7 @@ textarea {
   .box2,
   .box3 {
     height: 350px;
+    padding: 10px;
   }
 }
 
@@ -463,7 +464,7 @@ textarea {
     padding-right: 0;
   }
   .container2 {
-    padding-top: 20px;
+    padding-top: 40px;
   }
   .title {
     width: 50%;
@@ -503,7 +504,7 @@ textarea {
     height: 180px;
   }
   .about {
-    height: 120vh;
+    height: 130vh;
   }
   .container {
     flex-direction: column;
@@ -517,6 +518,9 @@ textarea {
   .about2 {
     width: 80%;
     padding-top: 20px;
+  }
+  .about ul li {
+    padding: 10px 5px;
   }
 }
 
@@ -546,8 +550,5 @@ textarea {
   }
   .contact2 {
     height: 200px;
-  }
-  .about ul li {
-    padding: 5px 5px;
   }
 }
