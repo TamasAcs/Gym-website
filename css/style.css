@@ -425,7 +425,7 @@ textarea {
   }
   .container {
     margin-top: 12%;
-}
+  }
   .container2 {
     padding: 40px 20px 0px 20px;
   }
@@ -439,25 +439,25 @@ textarea {
     height: 350px;
     padding: 10px;
   }
-  .about p{
+  .about p {
     font-size: 18px;
   }
   .about ul li {
     font-size: 16px;
-}
-.fa-2x {
-  font-size: 1.5em;
-}
-.cont p{
-  font-size: 18px;
-}
-.contact{
-  padding-top: 25px;
-}
-.labels {
-  margin-top: 20px;
-  line-height: 1.3rem;
-}
+  }
+  .fa-2x {
+    font-size: 1.5em;
+  }
+  .cont p {
+    font-size: 18px;
+  }
+  .contact {
+    padding-top: 25px;
+  }
+  .labels {
+    margin-top: 20px;
+    line-height: 1.3rem;
+  }
 }
 
 @media screen and (max-width: 640px) {
@@ -546,7 +546,7 @@ textarea {
     height: 180px;
   }
   .about {
-    height: 130vh;
+    height: 160vh;
   }
   .container {
     flex-direction: column;
@@ -561,12 +561,12 @@ textarea {
     width: 80%;
     padding-top: 20px;
   }
-  .title h1{
+  .title h1 {
     font-size: 30px;
   }
   .title p {
     font-size: 18px;
-}
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -587,38 +587,55 @@ textarea {
     padding-bottom: 20px;
     width: 70%;
   }
-  .title h1{
+  .title h1 {
     font-size: 25px;
   }
-  .title p{
+  .title p {
     font-size: 18px;
   }
   .form {
-    width: 300px;
+    width: 200px;
   }
-  .labels{
+  .labels {
     margin-top: 20px;
   }
-  .cont {
-    width: 320px;
+  .labels p{
+    font-size: 14px;
   }
-  .contact{
+  .cont {
+    width: 200px;
+  }
+  .contact {
     padding-top: 35px;
+    height: 110vh;
   }
   .cont h1 {
     padding-bottom: 15px;
-    font-size: 30px;
-}
-.cont p{
-  font-size: 16px;
-}
+    font-size: 25px;
+  }
+  .cont p {
+    font-size: 16px;
+  }
   .contact2 {
     height: 200px;
   }
-  .btn{
+  .labels h3{
+    font-size: 16px;
+  }
+  .labels h4{
+    font-size: 14px;
+  }
+  .btn {
     height: 32px;
   }
   .contact2 {
     padding: 0px 60px 0 60px;
-}
+  }
+  input, textarea {
+    line-height: 20px;
+    font-size: 14px;
+  }
+  [data-aos="fade-left"] {
+    transform: translate3d(0, 0, 0);
+  }
 }
