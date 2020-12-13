@@ -263,7 +263,7 @@ img {
   color: white;
   clip-path: polygon(0 5%, 100% 0, 100% 95%, 0% 100%);
   background: black;
-  padding-top: 45px;
+  padding-top: 95px;
   align-items: center;
 }
 
@@ -289,7 +289,7 @@ img {
 }
 
 .labels {
-  margin-top: 30px;
+  margin-top: 50px;
   padding: 20px;
   line-height: 1.5rem;
   background: var(--orange);
