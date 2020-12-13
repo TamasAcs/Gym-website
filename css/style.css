@@ -421,7 +421,11 @@ textarea {
 @media screen and (max-width: 950px) {
   .title {
     width: 50%;
+    padding-bottom: 10px;
   }
+  .container {
+    margin-top: 12%;
+}
   .container2 {
     padding: 40px 20px 0px 20px;
   }
@@ -435,6 +439,25 @@ textarea {
     height: 350px;
     padding: 10px;
   }
+  .about p{
+    font-size: 18px;
+  }
+  .about ul li {
+    font-size: 16px;
+}
+.fa-2x {
+  font-size: 1.5em;
+}
+.cont p{
+  font-size: 18px;
+}
+.contact{
+  padding-top: 25px;
+}
+.labels {
+  margin-top: 20px;
+  line-height: 1.3rem;
+}
 }
 
 @media screen and (max-width: 640px) {
@@ -507,13 +530,14 @@ textarea {
 
 @media screen and (max-width: 560px) {
   .about p {
-    font-size: 13px;
+    font-size: 16px;
   }
   .about h1 {
     font-size: 20px;
   }
   .about ul li {
     padding: 5px 5px;
+    font-size: 16px;
   }
   .about i {
     padding-right: 0;
@@ -537,9 +561,12 @@ textarea {
     width: 80%;
     padding-top: 20px;
   }
-  .about ul li {
-    padding: 10px 5px;
+  .title h1{
+    font-size: 30px;
   }
+  .title p {
+    font-size: 18px;
+}
 }
 
 @media screen and (max-width: 500px) {
@@ -560,13 +587,38 @@ textarea {
     padding-bottom: 20px;
     width: 70%;
   }
+  .title h1{
+    font-size: 25px;
+  }
+  .title p{
+    font-size: 18px;
+  }
   .form {
     width: 300px;
+  }
+  .labels{
+    margin-top: 20px;
   }
   .cont {
     width: 320px;
   }
+  .contact{
+    padding-top: 35px;
+  }
+  .cont h1 {
+    padding-bottom: 15px;
+    font-size: 30px;
+}
+.cont p{
+  font-size: 16px;
+}
   .contact2 {
     height: 200px;
   }
+  .btn{
+    height: 32px;
+  }
+  .contact2 {
+    padding: 0px 60px 0 60px;
+}
 }
