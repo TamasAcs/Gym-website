@@ -546,7 +546,7 @@ textarea {
     height: 180px;
   }
   .about {
-    height: 160vh;
+    height: 130vh;
   }
   .container {
     flex-direction: column;
@@ -594,8 +594,9 @@ textarea {
     font-size: 18px;
   }
   .form {
-    width: 200px;
-  }
+    width: 250px;
+    padding-top: 30px;
+}
   .labels {
     margin-top: 20px;
   }
@@ -607,7 +608,7 @@ textarea {
   }
   .contact {
     padding-top: 35px;
-    height: 110vh;
+    height: 100vh;
   }
   .cont h1 {
     padding-bottom: 15px;
@@ -638,4 +639,17 @@ textarea {
   [data-aos="fade-left"] {
     transform: translate3d(0, 0, 0);
   }
+}
+
+@media screen and (max-width: 350px) {
+.about{
+  height: 160vh;
+}
+.form {
+  width: 200px;
+  padding-top: 0;
+}
+.contact{
+  height: 110vh;
+}
 }
